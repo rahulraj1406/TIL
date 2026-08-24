@@ -96,6 +96,7 @@ How this connects to something I'm building or thinking about.
 
 | Date | Topic | Entry |
 |------|-------|-------|
+| 2026-08-24 | AI / Agentic Systems | [Running and understanding Waku Agent locally](ai/2026-08-24-waku-ai-agent.md) |
 | 2026-08-24 | Meta / Repo Structure | How to best organise a TIL repo — topic-first, date-within-topic layout |
 
 ---
@@ -138,4 +139,5 @@ I chose **topic-first**. The cognitive overhead of creating a subfolder is trivi
 
 | Date | Change |
 |------|--------|
+| 2026-08-24 | Added a concise learning note on running and understanding Waku Agent locally |
 | 2026-08-24 | 🚀 README published — repo structure defined, first TIL entry written |
