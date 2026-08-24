@@ -131,3 +131,11 @@ I chose **topic-first**. The cognitive overhead of creating a subfolder is trivi
 ---
 
 *Updated daily. Last update: 2026-08-24.*
+
+---
+
+## 📝 Changelog
+
+| Date | Change |
+|------|--------|
+| 2026-08-24 | 🚀 README published — repo structure defined, first TIL entry written |
