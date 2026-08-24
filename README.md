@@ -139,5 +139,6 @@ I chose **topic-first**. The cognitive overhead of creating a subfolder is trivi
 
 | Date | Change |
 |------|--------|
+| 2026-08-24 | Extended the Waku note with a tested NVIDIA NIM provider integration |
 | 2026-08-24 | Added a concise learning note on running and understanding Waku Agent locally |
 | 2026-08-24 | 🚀 README published — repo structure defined, first TIL entry written |

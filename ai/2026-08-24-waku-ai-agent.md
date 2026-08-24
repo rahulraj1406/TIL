@@ -25,6 +25,13 @@ Its four main pillars are **Harness, Loop, Memory, and Eval/LLM-Ops**. Memory is
 - [Waku core agent loop](https://github.com/ShenSeanChen/waku-agent/blob/main/waku/loop/agent.py)
 - [20-minute Waku code walkthrough](https://youtu.be/rvRyBhILrls?si=lOKXfuTsUTMRjhr4)
 
+## NVIDIA NIM Extension
+
+I added NVIDIA NIM as an OpenAI-compatible Waku provider without adding another HTTP dependency. The main model is `stepfun-ai/step-3.7-flash`; the lightweight memory gate uses `meta/llama-3.2-3b-instruct`. I also added a direct image-understanding example, provider settings, a dashboard logo, and regression coverage. The updated baseline is `619` tests passed and `60` optional tests skipped.
+
+- [NVIDIA Step 3.7 Flash](https://build.nvidia.com/stepfun-ai/step-3.7-flash)
+- [NVIDIA hosted NIM API documentation](https://docs.api.nvidia.com/nim/reference/llm-apis)
+
 ## Next
 
-Configure one model provider, trace a real tool-using turn, then implement one small personalized behavior with a regression test.
+Add the NVIDIA key locally, trace a real tool-using turn, then implement one small personalized behavior with a regression test.
