@@ -29,6 +29,8 @@ Its four main pillars are **Harness, Loop, Memory, and Eval/LLM-Ops**. Memory is
 
 I added NVIDIA NIM as an OpenAI-compatible Waku provider without adding another HTTP dependency. The main model is `stepfun-ai/step-3.7-flash`; the lightweight memory gate uses `meta/llama-3.2-3b-instruct`. I also added a direct image-understanding example, provider settings, a dashboard logo, and regression coverage. The updated baseline is `619` tests passed and `60` optional tests skipped.
 
+During live validation, Step 3.7 Flash was too slow for an interactive text turn, so I selected `nvidia/nemotron-3-nano-30b-a3b` locally for the main agent. The gate correctly skipped irrelevant memory, the model responded successfully, SQLite and JSONL tracing recorded the turn, and the dashboard started on `localhost:7777`.
+
 - [NVIDIA Step 3.7 Flash](https://build.nvidia.com/stepfun-ai/step-3.7-flash)
 - [NVIDIA hosted NIM API documentation](https://docs.api.nvidia.com/nim/reference/llm-apis)
 
